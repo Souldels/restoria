@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.33b1e846.css",
-    "main.js": "/static/js/main.79c04e08.js",
-    "static/js/787.633816a4.chunk.js": "/static/js/787.633816a4.chunk.js",
-    "static/media/background.jpg": "/static/media/background.1b30c31bdb97d3a0957b.jpg",
-    "static/media/Montserrat-Bold.woff": "/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff",
-    "static/media/Montserrat-Regular.woff": "/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff",
-    "static/media/Montserrat-Medium.woff": "/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff",
-    "static/media/MontserratBold.woff2": "/static/media/MontserratBold.24f24256d1c65af61c13.woff2",
-    "static/media/MontserratRegular.woff2": "/static/media/MontserratRegular.18df1d805751a6bcd913.woff2",
-    "static/media/MontserratMedium.woff2": "/static/media/MontserratMedium.a2044b3f394896fbb75d.woff2",
-    "static/media/back-arrow.svg": "/static/media/back-arrow.50b204518b78a425a1d2.svg",
-    "index.html": "/index.html",
-    "main.33b1e846.css.map": "/static/css/main.33b1e846.css.map",
-    "main.79c04e08.js.map": "/static/js/main.79c04e08.js.map",
-    "787.633816a4.chunk.js.map": "/static/js/787.633816a4.chunk.js.map"
+    "main.css": "/restoria/static/css/main.0e7dbcdf.css",
+    "main.js": "/restoria/static/js/main.887e918d.js",
+    "static/js/787.633816a4.chunk.js": "/restoria/static/js/787.633816a4.chunk.js",
+    "static/media/background.jpg": "/restoria/static/media/background.1b30c31bdb97d3a0957b.jpg",
+    "static/media/Montserrat-Bold.woff": "/restoria/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff",
+    "static/media/Montserrat-Regular.woff": "/restoria/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff",
+    "static/media/Montserrat-Medium.woff": "/restoria/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff",
+    "static/media/MontserratBold.woff2": "/restoria/static/media/MontserratBold.24f24256d1c65af61c13.woff2",
+    "static/media/MontserratRegular.woff2": "/restoria/static/media/MontserratRegular.18df1d805751a6bcd913.woff2",
+    "static/media/MontserratMedium.woff2": "/restoria/static/media/MontserratMedium.a2044b3f394896fbb75d.woff2",
+    "static/media/back-arrow.svg": "/restoria/static/media/back-arrow.50b204518b78a425a1d2.svg",
+    "index.html": "/restoria/index.html",
+    "main.0e7dbcdf.css.map": "/restoria/static/css/main.0e7dbcdf.css.map",
+    "main.887e918d.js.map": "/restoria/static/js/main.887e918d.js.map",
+    "787.633816a4.chunk.js.map": "/restoria/static/js/787.633816a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b1e846.css",
-    "static/js/main.79c04e08.js"
+    "static/css/main.0e7dbcdf.css",
+    "static/js/main.887e918d.js"
   ]
 }

@@ -1,0 +1,16 @@
+.main {
+	padding: 0 20px;
+	height: calc(100vh - 190px);
+	overflow-y: auto;
+}
+
+.main::-webkit-scrollbar {
+	width: 0;
+}
+
+.main__container {
+	margin: 0 auto;
+	padding-top: 20px;
+	max-width: 860px;
+	flex-direction: column;
+}

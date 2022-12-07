@@ -1,0 +1,59 @@
+.header {
+	padding: 20px;
+	height: 100px;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.header__title {
+	font-weight: 700;
+	font-size: 31px;
+	line-height: 38px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.header__total {
+	flex-direction: column;
+	align-items: flex-end;
+	flex-shrink: 0;
+	margin-right: 20px;
+}
+
+.header__cart {
+	align-items: center;
+}
+
+.header__totalProducts,
+.header__totalPrice {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+	color: #fff;
+}
+
+.header__btn {
+	display: block;
+	margin-right: 22px;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 50%;
+	background-color: #d58c51;
+	cursor: pointer;
+	transition: transform .3s ease-in-out;
+}
+
+.header__btn:focus {
+	transform: scale(1.1);
+}
+
+.header__btn:hover {
+	transform: scale(1.1);
+}

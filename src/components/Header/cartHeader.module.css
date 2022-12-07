@@ -1,0 +1,22 @@
+.header {
+	padding: 20px;
+	height: 100px;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.header__title {
+	margin-right: 30px;
+	font-weight: 700;
+	font-size: 31px;
+	line-height: 38px;
+	color: #fff;
+	text-transform: uppercase;
+}

@@ -1,0 +1,45 @@
+.btn {
+	width: 200px;
+	height: 42px;
+	background-color: #d58c51;
+	border: none;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	transition: background-color .3s ease-in-out;
+}
+
+.btn:focus {
+	outline: 2px solid #d58c51;
+	outline-offset: 2px;
+}
+
+.btn:hover {
+	background-color: #d76d16;
+}
+
+.btn__logout {
+	width: 200px;
+	height: 42px;
+	background-color: transparent;
+	color: #d58c51;
+	border: 1px solid #d58c51;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	cursor: pointer;
+	transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.btn__logout:focus {
+	outline: 2px solid #d58c51;
+	outline-offset: 2px;
+}
+
+.btn__logout:hover {
+	background-color: #d58c51;
+	color: #fff;
+}

@@ -1,0 +1,127 @@
+.card__btn {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: border-color .3s ease-in-out;
+}
+
+.card__btn:focus {
+	border-color: #d58c51;
+}
+
+.card__btn:hover {
+	border-color: #d58c51;
+}
+
+.card__btn::before,
+.card__btn::after {
+	content: "";
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.card__btn::before {
+	height: 11px;
+	border: 1px solid #fff;
+	transition: border-color .3s ease-in-out;
+}
+
+.card__btn:focus::before {
+	border-color: #d58c51;
+}
+
+.card__btn:hover::before {
+	border-color: #d58c51;
+}
+
+.card__btn::after {
+	width: 11px;
+	border: 1px solid #fff;
+	transition: border-color .3s ease-in-out;
+}
+
+.card__btn:focus::after {
+	border-color: #d58c51;
+}
+
+.card__btn:hover::after {
+	border-color: #d58c51;
+}
+
+/* Кнопка удаления из корзины */
+
+.card__btn_del {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #d58c51;
+	border-radius: 50%;
+	transition: border-color .3s ease-in-out;
+	transform: rotate(45deg);
+	flex-shrink: 0;
+}
+
+.card__btn_del:focus {
+	border-color: #8b0000;
+}
+
+.card__btn_del:hover {
+	border-color: #8b0000;
+}
+
+.card__btn_del::before,
+.card__btn_del::after {
+	content: "";
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.card__btn_del::before {
+	height: 11px;
+	border: 1px solid #d58c51;
+	transition: border-color .3s ease-in-out;
+}
+
+.card__btn_del:focus::before {
+	border-color: #8b0000;
+}
+
+.card__btn_del:hover::before {
+	border-color: #8b0000;
+}
+
+.card__btn_del::after {
+	width: 11px;
+	border: 1px solid #d58c51;
+	transition: border-color .3s ease-in-out;
+}
+
+.card__btn_del:focus::after {
+	border-color: #8b0000;
+}
+
+.card__btn_del:hover::after {
+	border-color: #8b0000;
+}
+
+/* Кнопка назад */
+
+.card__btn_back {
+	margin-right: 60px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #d58c51;
+	background-image: url('../../../public/icons/back-arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	transition: transform .3s ease-in-out;
+	flex-shrink: 0;
+}
+
+.card__btn_back:focus,
+.card__btn_back:hover {
+	transform: scale(1.1);
+}

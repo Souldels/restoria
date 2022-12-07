@@ -1,0 +1,152 @@
+.header {
+	padding: 0 20px;
+	height: 100px;
+
+	&__container {
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1300px;
+		height: 100%;
+	}
+
+	&__total {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-right: 20px;
+	}
+
+	&__cart {
+		display: flex;
+		align-items: center;
+	}
+
+	&__total-products,
+	&__total-price {
+		font-weight: 500;
+		font-size: 17px;
+		line-height: 21px;
+		color: #fff;
+	}
+
+	&__btn {
+		display: block;
+		margin-right: 22px;
+		width: 50px;
+		height: 50px;
+		border: none;
+		border-radius: 50%;
+		background-color: #d58c51;
+		cursor: pointer;
+		transition: transform .3s ease-in-out;
+
+		&:focus {
+			transform: scale(1.1);
+		}
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.main {
+	padding: 0 20px 50px;
+	height: calc(100vh - 100px);
+	overflow-y: auto;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+
+	&__container {
+		margin: 0 auto;
+		padding-top: 20px;
+		max-width: 1300px;
+	}
+}
+
+.card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	@media (max-width: 992px) {
+		flex-direction: column;
+	}
+
+	&__left {
+		display: flex;
+		align-items: center;
+		margin-right: 30px;
+		width: 501px;
+		height: 503px;
+
+		@media (max-width: 992px) {
+			margin-bottom: 30px;
+		}
+	}
+
+	&__img {
+		width: 501px;
+		height: 503px;
+	}
+
+	&__right {
+		max-width: 530px;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 37px;
+		color: #d58c51;
+
+		@media (max-width: 992px) {
+			text-align: center;
+		}
+	}
+
+	&__desc {
+		margin-bottom: 35px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		color: #fff;
+
+		@media (max-width: 992px) {
+			text-align: center;
+		}
+	}
+
+	&__bottom {
+		display: flex;
+
+		@media (max-width: 992px) {
+			justify-content: center;
+		}
+	}
+
+	&__bottom-wrap {
+		margin-right: 65px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__price {
+		font-weight: 500;
+		font-size: 23px;
+		line-height: 28px;
+		color: #fff;
+	}
+
+	&__weight {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+		color: #fff;
+	}
+}

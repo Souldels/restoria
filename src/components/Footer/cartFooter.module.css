@@ -1,0 +1,36 @@
+.footer {
+	padding: 0 20px;
+	height: 90px;
+	border-top: 1px solid #d58c51;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 860px;
+	height: 100%;
+}
+
+.footer__wrap {
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.footer__title {
+	margin-right: 15px;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 26px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer__total {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #d58c51;
+}

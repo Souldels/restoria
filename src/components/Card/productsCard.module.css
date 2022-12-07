@@ -1,0 +1,102 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	padding: 43px 21px 36px;
+	max-width: 312px;
+	min-height: 552px;
+	border: 1px solid #d58c51;
+	cursor: pointer;
+	transition: box-shadow .3s ease-in-out;
+}
+
+.card:focus {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card:focus .card__img {
+	animation: spin 10s linear 0s infinite;
+}
+
+.card:focus .card__title,
+.card:focus .card__desc,
+.card:focus .card__price,
+.card:focus .card__weight {
+	color: #d58c51;
+}
+
+.card:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card:hover .card__img {
+	animation: spin 10s linear 0s infinite;
+}
+
+.card:hover .card__title,
+.card:hover .card__desc,
+.card:hover .card__price,
+.card:hover .card__weight {
+	color: #d58c51;
+}
+
+.card__img {
+	margin-bottom: 30px;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.card__title {
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+	color: #fff;
+	cursor: pointer;
+	transition: color .3s ease-in-out;
+}
+
+.card__desc {
+	margin-bottom: auto;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #fff;
+	cursor: pointer;
+	transition: color .3s ease-in-out;
+}
+
+.card__bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card__bottomWrap {
+	display: flex;
+	align-items: center;
+}
+
+.card__price {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+	color: #fff;
+	cursor: pointer;
+	transition: color .3s ease-in-out;
+}
+
+.card__weight {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #fff;
+	cursor: pointer;
+	transition: color .3s ease-in-out;
+}

@@ -1,0 +1,23 @@
+.main {
+	padding: 0 20px;
+	height: calc(100vh - 100px);
+	overflow-y: auto;
+}
+
+.main::-webkit-scrollbar {
+	width: 0;
+}
+
+.main__container {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	margin-bottom: 100px;
+	flex-wrap: wrap;
+	gap: 17px;
+}
+
+@media (max-width: 1366px) {
+	.main__container {
+		justify-content: center;
+	}
+}

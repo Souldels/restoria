@@ -1,0 +1,160 @@
+.login {
+	background-image: url('../../public/img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+
+	&__container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 460px;
+		min-height: 340px;
+		background-color: #fff;
+		border-radius: 5px;
+		transform: translate(-50%, -50%);
+		box-shadow: rgba(163, 157, 157, 0.56) 0px 22px 70px 4px;
+
+		@media (max-width: 460px) {
+			width: 300px;
+		}
+	}
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+	}
+
+	&__item {
+		padding: 5px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+		text-transform: uppercase;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: color .3s ease-in-out;
+
+		@media (max-width: 460px) {
+			font-size: 14px;
+			line-height: 14px;
+		}
+
+		&:first-child {
+			margin-right: 20px;
+		}
+	}
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+	&__title {
+		margin-bottom: 35px;
+		font-weight: 700;
+		font-size: 31px;
+		line-height: 38px;
+		text-transform: uppercase;
+		text-align: center;
+		color: #161516;
+
+		@media (max-width: 460px) {
+			margin-bottom: 20px;
+			font-size: 24px;
+		}
+	}
+
+	&__wrap {
+		margin-bottom: 15px;
+	}
+
+	&__input {
+		width: 100%;
+		padding: 10px 15px;
+		border: 1px solid #D58C51;
+		border-radius: 61px;
+		font-family: 'Montserrat';
+
+		&::placeholder {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 20px;
+			color: #161516;
+		}
+
+		&:focus {
+			padding: 9px 14px;
+			border: 2px solid #D58C51;
+		}
+	}
+
+	&__label {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+		font-weight: 300;
+		font-size: 11px;
+		line-height: 13px;
+		color: #301411;
+		cursor: pointer;
+	}
+
+	&__btn {
+		margin: 0 auto;
+		width: 200px;
+		height: 42px;
+		border: none;
+		background: #d58c51;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		cursor: pointer;
+
+		&:focus {
+			outline: 2px solid #d58c51;
+			outline-offset: 2px;
+		}
+
+		&:hover {
+			background: #d76d16;
+		}
+	}
+}
+
+.error {
+	// display: none;
+	text-align: center;
+	font-weight: 300;
+	font-size: 8px;
+	line-height: 10px;
+	color: #ff0b0b;
+	transform: translateY(-8px);
+}
+
+// Стилизация чекбокса из material ui 
+.MuiCheckbox-root {
+	padding: 0 !important;
+	margin-right: 10px !important;
+
+	svg {
+		fill: #d58c51;
+	}
+}
+
+.input-error {
+	border-color: #ff0b0b;
+}
+
+.msg-error {
+	padding-left: 15px;
+	font-weight: 300;
+	font-size: 8px;
+	line-height: 10px;
+	color: #ff0b0b;
+}
